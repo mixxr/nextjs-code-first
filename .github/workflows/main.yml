@@ -32,6 +32,8 @@ jobs:
           output_location: "" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
         env:
+          PUBLIC_URL: "https://red-mushroom-0d49c7e03.2.azurestaticapps.net"
+          FETCH_WITH: "GraphQL"
           JSS_APP_NAME: "helloworld"
           GRAPH_QL_ENDPOINT: "https://edge.sitecorecloud.io/api/graphql/v1"
           SITECORE_API_KEY: "YVZSZ0tUUHlXbytrZWM1S21CcGZ2YVJ5SjZmeGNEUUFQTk5JaHM4VGNaTT18c2l0ZWNvcmVzYWE0Y2U3LW1zZnJvbXhtY2Z0NjJhNC1uZXh0anMtODRmNg=="         
